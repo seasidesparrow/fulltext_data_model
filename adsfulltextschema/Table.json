@@ -1,0 +1,19 @@
+{
+  "title": "Table",
+  "description": "Object that holds table data and metadata",
+  "type": "object",
+  "properties": {
+    "caption": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

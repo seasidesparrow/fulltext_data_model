@@ -1,0 +1,16 @@
+{
+  "title": "Figure",
+  "description": "Object that holds figure metadata",
+  "type": "object",
+  "properties": {
+    "caption": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

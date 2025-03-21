@@ -1,0 +1,13 @@
+{
+  "title": "BibRef",
+  "description": "Object that holds a bibliographic (in-text) reference",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Reference",
+  "description": "Object that holds a bibliographic reference from backmatter ",
+  "type": "object",
+  "properties": {
+    "doi": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "xml": {
+      "type": "string"
+    }
+  }
+}

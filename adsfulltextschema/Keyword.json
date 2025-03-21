@@ -1,0 +1,16 @@
+{
+  "title": "Keyword",
+  "description": "Holds an individual text keyword, along with its type (e.g. AAS), and/or a numeric keyword if provided (e.g. PACS).  The keyID variable should always be used with keySystem.",
+  "type": "object",
+  "properties": {
+    "keyString": {
+      "type": "string"
+    },
+    "keySystem": {
+      "type": "string"
+    },
+    "keyID": {
+      "type": "string"
+    }
+  }
+}

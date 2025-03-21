@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Document",
+  "description": "Data schema for importing fulltext data into Honeycomb",
+  "type": "object",
+  "properties": {
+    "abstract": {
+      "type": "array",
+      "description": "Array of Section.json objects",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "acknowledgements": {
+      "$ref": "./Acknowledgements.json"
+    },
+    "appendices": {
+      "type": "array",
+      "description": "Array of Section.json objects",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "authors": {
+      "type": "array",
+      "description": "Array of Contrib objects",
+      "items": {
+        "$ref": "./Contrib.json"
+      }
+    },
+    "body": {
+      "type": "array",
+      "description": "Array of Section.json objects",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "copyright": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "statement": {
+          "type": "string"
+        }
+      }
+    },
+    "footnote-table": {
+      "type": "array",
+      "description": "Array of Footnote.json objects",
+      "items": {
+        "$ref": "./Footnote.json"
+      }
+    },
+    "funding": {
+      "type": "array",
+      "description": "Array of Funder.json objects",
+      "items": {
+        "$ref": "./Funder.json"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Array of Keyword.json objects",
+      "items": {
+        "$ref": "./Keyword.json"
+      }
+    },
+    "openAccess": {
+      "$ref": "./OpenAccess.json"
+    },
+    "otherContributor": {
+      "type": "array",
+      "description": "Array of Contrib/role pairs",
+      "items": {
+        "$ref": "./OtherContrib.json"
+      }
+    },
+    "persistentIDs": {
+      "type": "array",
+      "description": "Array of PersistentID.json objects",
+      "items": {
+        "$ref": "./PersistentID.json"
+      }
+    },
+    "pubDate": {
+      "$ref": "./PubDates.json"
+    },
+    "publication": {
+      "$ref": "./Publication.json"
+    },
+    "recordData": {
+      "$ref": "./RecordData.json"
+    },
+    "references": {
+      "type": "array",
+      "description": "Array of Reference.json objects",
+      "items": {
+        "$ref": "./Reference.json"
+      }
+    },
+    "subtitle": {
+      "$ref": "./Title.json"
+    },
+
+    "title": {
+      "$ref": "./Title.json"
+    }
+  },
+  "required": [
+    "recordData",
+    "body",
+    "title",
+    "pubDate",
+    "publication"
+  ],
+  "additionalProperties": false
+}

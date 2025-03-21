@@ -1,2 +1,5 @@
 # fulltext_data_model
-JSON schema for ADS fulltext ingest
+This repository contains the draft schema for fulltext import, to provide
+a consistent storage model for fulltext processing
+
+2025 Mar 21: Matthew Templeton, ADS

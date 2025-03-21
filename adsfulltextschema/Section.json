@@ -1,0 +1,54 @@
+{
+  "title": "Section",
+  "description": "Recursive object that holds the extracted properties of a body, appendix, or abstract section",
+  "type": "object",
+  "properties": {
+    "bibRefs": {
+      "type": "array",
+      "description": "Array of BibRef.json objects",
+      "items": {
+        "$ref": "./BibRef.json"
+      }
+    },
+    "footnotes": {
+      "type": "array",
+      "description": "Array of Footnote.json objects",
+      "items": {
+        "$ref": "./Footnote.json"
+      }
+    },
+    "figures": {
+      "type": "array",
+      "description": "Array of Figure.json objects",
+      "items": {
+        "$ref": "./Figure.json"
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "subsections": {
+      "type": "array",
+      "description": "Array of Section.json objects (recursive def)",
+      "items": {
+        "$ref": "#"
+      }
+    },
+    "tables": {
+      "type": "array",
+      "description": "Array of Table.json objects",
+      "items": {
+        "$ref": "./Table.json"
+      }
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

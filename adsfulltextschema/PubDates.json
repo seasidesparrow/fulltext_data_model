@@ -1,0 +1,28 @@
+{
+  "title": "PubDates",
+  "description": "Holds editorial history; papers can have multiple received/revised dates.",
+  "type": "object",
+  "properties": {
+    "electrDate": {
+      "type": "string"
+    },
+    "printDate": {
+      "type": "string"
+    },
+    "otherDate": {
+      "type": "array",
+      "description": "Array of date-like objects (e.g. 'submitted', 'revised', 'accepted')",
+      "items": {
+        "type": "object",
+        "properties": {
+          "otherDateType": {
+            "type": "string"
+          },
+          "otherDateValue": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

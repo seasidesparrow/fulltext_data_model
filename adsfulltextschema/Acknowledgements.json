@@ -1,0 +1,20 @@
+{
+  "title": "Acknowledgements",
+  "description": "Object that holds acknowledgements from backmatter",
+  "type": "object",
+  "properties": {
+    "facilities": {
+      "type": "array",
+      "description": "List of fielded facilities extracted from acknowledgements",
+      "items": {
+        "type": "string"
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
