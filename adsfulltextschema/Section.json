@@ -25,10 +25,16 @@
       }
     },
     "id": {
-      "type": "string"
+      "type": "string",
+      "description": "Publisher ID for section"
     },
     "label": {
-      "type": "string"
+      "type": "string",
+      "description": "Label for section"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of section, if stated"
     },
     "sectionTitle": {
       "type": "string"
