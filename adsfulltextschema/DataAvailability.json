@@ -1,0 +1,17 @@
+{
+  "title": "DataAvailability",
+  "description": "Holds the data availability statements",
+  "type": "object",
+  "properties": {
+    "statements": {
+      "type": "array",
+      "description": "Data availability statements of Section.json type",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "title": {
+      "type": "Stated title of data availability section"
+    }
+  }
+}

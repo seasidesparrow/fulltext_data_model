@@ -6,7 +6,7 @@
   "properties": {
     "abstract": {
       "type": "array",
-      "description": "Array of Section.json objects",
+      "description": "Array of Section.json objects for multilingual support",
       "items": {
         "$ref": "./Section.json"
       }
@@ -46,6 +46,9 @@
         }
       }
     },
+    "dataavailability": {
+      "$ref": "./DataAvailability.json"
+    },
     "footnote-table": {
       "type": "array",
       "description": "Array of Footnote.json objects",
@@ -67,6 +70,10 @@
         "$ref": "./Keyword.json"
       }
     },
+    "language": {
+      "type": "string",
+      "description": "Stated language of the document from header"
+    },
     "openAccess": {
       "$ref": "./OpenAccess.json"
     },
@@ -83,6 +90,9 @@
       "items": {
         "$ref": "./PersistentID.json"
       }
+    },
+    "properties": {
+      "$ref": "./Properties.json"
     },
     "pubDate": {
       "$ref": "./PubDates.json"
@@ -101,11 +111,25 @@
       }
     },
     "subtitle": {
-      "$ref": "./Title.json"
+      "type": "array",
+      "description": "Array of Title.json objects for multilingual support",
+      "items": [
+        "$ref": "./Title.json"
+      ]
     },
-
+    "supplementaryMaterial": {
+      "type": "array",
+      "description": "Array of text objects",
+      "items": [
+        "type": "string"
+      ]
+    },
     "title": {
-      "$ref": "./Title.json"
+      "type": "array",
+      "description": "Array of Title.json objects for multilingual support",
+      "items": [
+        "$ref": "./Title.json"
+      ]
     }
   },
   "required": [
