@@ -3,6 +3,9 @@
   "description": "Recursive object that holds the extracted properties of a body, appendix, or abstract section",
   "type": "object",
   "properties": {
+    "atext": {
+      "type": "string"
+    },
     "bibRefs": {
       "type": "array",
       "description": "Array of BibRef.json objects",
@@ -52,9 +55,6 @@
       "items": {
         "$ref": "./Table.json"
       }
-    },
-    "text": {
-      "type": "string"
     }
   }
 }

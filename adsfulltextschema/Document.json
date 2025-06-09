@@ -113,23 +113,23 @@
     "subtitle": {
       "type": "array",
       "description": "Array of Title.json objects for multilingual support",
-      "items": [
+      "items": {
         "$ref": "./Title.json"
-      ]
+      }
     },
     "supplementaryMaterial": {
       "type": "array",
       "description": "Array of text objects",
-      "items": [
+      "items": {
         "type": "string"
-      ]
+      }
     },
     "title": {
       "type": "array",
       "description": "Array of Title.json objects for multilingual support",
-      "items": [
+      "items": {
         "$ref": "./Title.json"
-      ]
+      }
     }
   },
   "required": [

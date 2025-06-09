@@ -11,7 +11,8 @@
       }
     },
     "title": {
-      "type": "Stated title of data availability section"
+      "type": "string",
+      "description": "Stated title of data availability section"
     }
   }
 }
