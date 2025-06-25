@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsfulltextschema/Document.json",
   "title": "Document",
   "description": "Data schema for importing fulltext data into Honeycomb",
   "type": "object",
@@ -25,7 +26,7 @@
       "type": "array",
       "description": "Array of Contrib objects",
       "items": {
-        "$ref": "./Contrib.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Contrib.json"
       }
     },
     "body": {
@@ -60,14 +61,14 @@
       "type": "array",
       "description": "Array of Funder.json objects",
       "items": {
-        "$ref": "./Funder.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Funder.json"
       }
     },
     "keywords": {
       "type": "array",
       "description": "Array of Keyword.json objects",
       "items": {
-        "$ref": "./Keyword.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Keyword.json"
       }
     },
     "language": {
@@ -75,33 +76,30 @@
       "description": "Stated language of the document from header"
     },
     "openAccess": {
-      "$ref": "./OpenAccess.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/OpenAccess.json"
     },
     "otherContributor": {
       "type": "array",
       "description": "Array of Contrib/role pairs",
       "items": {
-        "$ref": "./OtherContrib.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/OtherContrib.json"
       }
     },
     "persistentIDs": {
       "type": "array",
       "description": "Array of PersistentID.json objects",
       "items": {
-        "$ref": "./PersistentID.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/PersistentID.json"
       }
     },
-    "properties": {
-      "$ref": "./Properties.json"
-    },
     "pubDate": {
-      "$ref": "./PubDates.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/PubDates.json"
     },
     "publication": {
-      "$ref": "./Publication.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Publication.json"
     },
     "recordData": {
-      "$ref": "./RecordData.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/RecordData.json"
     },
     "references": {
       "type": "array",
@@ -114,7 +112,7 @@
       "type": "array",
       "description": "Array of Title.json objects for multilingual support",
       "items": {
-        "$ref": "./Title.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Title.json"
       }
     },
     "supplementaryMaterial": {

@@ -13,6 +13,13 @@
         "$ref": "./BibRef.json"
       }
     },
+    "datalinks": {
+      "type": "array",
+      "description": "Array of DataLink.json objects",
+      "items": {
+        "$ref": "https://github.com/adsabs/ingest_data_model/tree/main/adsingestschema/DataLink.json"
+      }
+    },
     "footnotes": {
       "type": "array",
       "description": "Array of Footnote.json objects",
