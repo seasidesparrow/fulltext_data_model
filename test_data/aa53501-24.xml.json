@@ -1145,10 +1145,11 @@
       "xml": "<ref id=\"R62\">\n<mixed-citation publication-type=\"journal\">\n<string-name><surname>Zucker</surname>, <given-names>C.</given-names></string-name>, <string-name><surname>Battersby</surname>, <given-names>C.</given-names></string-name>, &amp; <string-name><surname>Goodman</surname>, <given-names>A.</given-names></string-name> <year>2015</year>, <source>ApJ</source>, <volume>815</volume>, <fpage>23</fpage>\n</mixed-citation>\n</ref>"
     }
   ],
-  "supplementarymaterial": [
+  "supplementaryMaterial": [
     "<supplementary-material id=\"SD1\">\n<media id=\"M1\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov1-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 1</p></caption>\n</media>\n<media id=\"M2\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov2-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 2</p></caption>\n</media>\n<media id=\"M3\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov3-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 3</p></caption>\n</media>\n<media id=\"M4\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov4-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 4</p></caption>\n</media>\n</supplementary-material>"
   ],
-  "title": {
-    "textEnglish": "Formation of filaments and feathers in disc galaxies: Is self-gravity enough?"
-  }
+  "title": [
+    {"textEnglish": "Formation of filaments and feathers in disc galaxies: Is self-gravity enough?"
+    }
+  ]
 }

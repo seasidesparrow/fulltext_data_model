@@ -33,6 +33,7 @@ class ValidationTool(object):
                 self.validator = Draft7Validator(schema=self.schema, resolver=self.resolver)
 
     def test(self, data):
+        # self.validator.validate(data)
         try:
             self.validator.validate(data)
         except Exception as err:

@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsfulltextschema/Document.json",
   "title": "Document",
   "description": "Data schema for importing fulltext data into Honeycomb",
   "type": "object",
@@ -26,7 +25,7 @@
       "type": "array",
       "description": "Array of Contrib objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Contrib.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Contrib.json"
       }
     },
     "body": {
@@ -61,14 +60,14 @@
       "type": "array",
       "description": "Array of Funder.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Funder.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Funder.json"
       }
     },
     "keywords": {
       "type": "array",
       "description": "Array of Keyword.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Keyword.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Keyword.json"
       }
     },
     "language": {
@@ -76,30 +75,30 @@
       "description": "Stated language of the document from header"
     },
     "openAccess": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/OpenAccess.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/OpenAccess.json"
     },
     "otherContributor": {
       "type": "array",
       "description": "Array of Contrib/role pairs",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/OtherContrib.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/OtherContrib.json"
       }
     },
     "persistentIDs": {
       "type": "array",
       "description": "Array of PersistentID.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/PersistentID.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/PersistentID.json"
       }
     },
     "pubDate": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/PubDates.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/PubDates.json"
     },
     "publication": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Publication.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Publication.json"
     },
     "recordData": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/RecordData.json"
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/RecordData.json"
     },
     "references": {
       "type": "array",
@@ -112,7 +111,7 @@
       "type": "array",
       "description": "Array of Title.json objects for multilingual support",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/heads/main/adsingestschema/Title.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Title.json"
       }
     },
     "supplementaryMaterial": {
@@ -126,7 +125,7 @@
       "type": "array",
       "description": "Array of Title.json objects for multilingual support",
       "items": {
-        "$ref": "./Title.json"
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Title.json"
       }
     }
   },
