@@ -1,2 +1,2 @@
 jsonschema==3.2.0
-git+https://github.com/adsabs/ingest_data_model@v1.0.12
+requests

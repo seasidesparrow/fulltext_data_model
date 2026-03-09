@@ -1149,7 +1149,8 @@
     "<supplementary-material id=\"SD1\">\n<media id=\"M1\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov1-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 1</p></caption>\n</media>\n<media id=\"M2\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov2-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 2</p></caption>\n</media>\n<media id=\"M3\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov3-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 3</p></caption>\n</media>\n<media id=\"M4\" mime-subtype=\"mp4\" mimetype=\"video\" xlink:href=\"aa53501-24-mov4-olm.mp4\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<caption><p>Movie 4</p></caption>\n</media>\n</supplementary-material>"
   ],
   "title": [
-    {"textEnglish": "Formation of filaments and feathers in disc galaxies: Is self-gravity enough?"
+    {
+      "atext": "Formation of filaments and feathers in disc galaxies: Is self-gravity enough?"
     }
   ]
 }

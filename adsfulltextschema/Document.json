@@ -7,9 +7,9 @@
   "properties": {
     "abstract": {
       "type": "array",
-      "description": "Array of Section.json objects for multilingual support",
+      "description": "Array of adsingestschema/Abstract.json objects.",
       "items": {
-        "$ref": "./Section.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Abstract.json"
       }
     },
     "acknowledgements": {
@@ -17,16 +17,16 @@
     },
     "appendices": {
       "type": "array",
-      "description": "Array of Section.json objects",
+      "description": "Array of Section.json objects.",
       "items": {
         "$ref": "./Section.json"
       }
     },
     "authors": {
       "type": "array",
-      "description": "Array of Contrib objects",
+      "description": "Array of adsingestschema/Contrib.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Contrib.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Contrib.json"
       }
     },
     "body": {
@@ -52,54 +52,58 @@
     },
     "footnote-table": {
       "type": "array",
-      "description": "Array of Footnote.json objects",
+      "description": "Array of adsingestschema/Footnote.json objects",
       "items": {
-        "$ref": "./Footnote.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Footnote.json"
       }
     },
     "funding": {
       "type": "array",
-      "description": "Array of Funder.json objects",
+      "description": "Array of adsingestschema/Funder.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Funder.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Funder.json"
       }
     },
     "keywords": {
       "type": "array",
-      "description": "Array of Keyword.json objects",
+      "description": "Array of adsingestschema/Keyword.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Keyword.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Keyword.json"
       }
     },
     "language": {
       "type": "string",
-      "description": "Stated language of the document from header"
+      "description": "ISO-639-1 country code of document language declaration"
     },
     "openAccess": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/OpenAccess.json"
+      "description": "adsingestschema/OpenAccess.json object",
+      "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/OpenAccess.json"
     },
     "otherContributor": {
       "type": "array",
-      "description": "Array of Contrib/role pairs",
+      "description": "Array of adsingestschema/Contrib.json / role pairs",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/OtherContrib.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/OtherContrib.json"
       }
     },
     "persistentIDs": {
       "type": "array",
-      "description": "Array of PersistentID.json objects",
+      "description": "Array of adsingestschema/PersistentID.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/PersistentID.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/PersistentID.json"
       }
     },
     "pubDate": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/PubDates.json"
+      "description": "adsingestschema/PubDates.json object",
+      "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/PubDates.json"
     },
     "publication": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Publication.json"
+      "description": "adsingestschema/Publication.json object",
+      "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Publication.json"
     },
     "recordData": {
-      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/RecordData.json"
+      "description": "adsingestschema/RecordData.json object",
+      "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/RecordData.json"
     },
     "references": {
       "type": "array",
@@ -110,9 +114,9 @@
     },
     "subtitle": {
       "type": "array",
-      "description": "Array of Title.json objects for multilingual support",
+      "description": "Array of adsingestschema/Title.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Title.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Title.json"
       }
     },
     "supplementaryMaterial": {
@@ -124,9 +128,9 @@
     },
     "title": {
       "type": "array",
-      "description": "Array of Title.json objects for multilingual support",
+      "description": "Array of adsingestschema/Title.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/Title.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Title.json"
       }
     }
   },

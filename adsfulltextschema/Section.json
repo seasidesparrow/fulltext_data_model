@@ -17,14 +17,14 @@
       "type": "array",
       "description": "Array of DataLink.json objects",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.0.13/adsingestschema/DataLink.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/DataLink.json"
       }
     },
     "footnotes": {
       "type": "array",
       "description": "Array of Footnote.json objects",
       "items": {
-        "$ref": "./Footnote.json"
+        "$ref": "https://raw.githubusercontent.com/seasidesparrow/ingest_data_model/refs/tags/v1.1.0x/adsingestschema/Footnote.json"
       }
     },
     "figures": {

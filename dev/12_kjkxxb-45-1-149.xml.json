@@ -1,0 +1,272 @@
+{
+  "authors": [
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u90d1\u5dde\u8f7b\u5de5\u4e1a\u5927\u5b66\u80fd\u6e90\u4e0e\u52a8\u529b\u5de5\u7a0b\u5b66\u9662 \u90d1\u5dde 450001, School of Energy and Power Engineering, Zhengzhou University of Light Industry, Zhengzhou 450001"
+        },
+        {
+          "affPubRaw": "\u6cb3\u5357\u7701\u80fd\u6e90\u9ad8\u6548\u8f6c\u5316\u4e0e\u5229\u7528\u56fd\u9645\u8054\u5408\u5b9e\u9a8c\u5ba4 \u90d1\u5dde 450001, Henan International Joint Laboratory of Energy Efficient Conversion and Utilization, Zhengzhou 450001"
+        }
+      ],
+      "attrib": {
+        "email": "leigzhang@zzuli.edu.cn"
+      },
+      "name": {
+        "given_name": "\u96f7\u521a",
+        "native_lang": "\u5f20\n\u96f7\u521a\n\n\nZHANG\nLeigang",
+        "surname": "\u5f20"
+      }
+    },
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u90d1\u5dde\u8f7b\u5de5\u4e1a\u5927\u5b66\u80fd\u6e90\u4e0e\u52a8\u529b\u5de5\u7a0b\u5b66\u9662 \u90d1\u5dde 450001, School of Energy and Power Engineering, Zhengzhou University of Light Industry, Zhengzhou 450001"
+        }
+      ],
+      "name": {
+        "given_name": "\u68a6",
+        "native_lang": "\u8339\n\u68a6\n\n\nRU\nMeng",
+        "surname": "\u8339"
+      }
+    },
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u90d1\u5dde\u8f7b\u5de5\u4e1a\u5927\u5b66\u80fd\u6e90\u4e0e\u52a8\u529b\u5de5\u7a0b\u5b66\u9662 \u90d1\u5dde 450001, School of Energy and Power Engineering, Zhengzhou University of Light Industry, Zhengzhou 450001"
+        }
+      ],
+      "name": {
+        "given_name": "\u8c6a",
+        "native_lang": "\u674e\n\u8c6a\n\n\nLI\nHao",
+        "surname": "\u674e"
+      }
+    },
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u90d1\u5dde\u8f7b\u5de5\u4e1a\u5927\u5b66\u80fd\u6e90\u4e0e\u52a8\u529b\u5de5\u7a0b\u5b66\u9662 \u90d1\u5dde 450001, School of Energy and Power Engineering, Zhengzhou University of Light Industry, Zhengzhou 450001"
+        },
+        {
+          "affPubRaw": "\u6cb3\u5357\u7701\u80fd\u6e90\u9ad8\u6548\u8f6c\u5316\u4e0e\u5229\u7528\u56fd\u9645\u8054\u5408\u5b9e\u9a8c\u5ba4 \u90d1\u5dde 450001, Henan International Joint Laboratory of Energy Efficient Conversion and Utilization, Zhengzhou 450001"
+        }
+      ],
+      "name": {
+        "given_name": "\u5229\u6587",
+        "native_lang": "\u5cb3\n\u5229\u6587\n\n\nYUE\nLiwen",
+        "surname": "\u5cb3"
+      }
+    },
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u4e1c\u5357\u5927\u5b66\u80fd\u6e90\u4e0e\u73af\u5883\u5b66\u9662 \u5357\u4eac 211189, School of Energy and Environment, Southeast University, Nanjing 211189"
+        }
+      ],
+      "name": {
+        "given_name": "\u632f\u4e7e",
+        "native_lang": "\u9648\n\u632f\u4e7e\n\n\nCHEN\nZhenqian",
+        "surname": "\u9648"
+      }
+    },
+    {
+      "affiliation": [
+        {
+          "affPubRaw": "\u6cb3\u5357\u65ed\u901a\u667a\u80fd\u79d1\u6280\u6709\u9650\u516c\u53f8 \u90d1\u5dde 450001, Henan Xutong Intelligent Technology Co., Ltd., Zhengzhou 450001"
+        }
+      ],
+      "name": {
+        "given_name": "\u8273\u9633",
+        "native_lang": "\u9a6c\n\u8273\u9633\n\n\nMA\nYanyang",
+        "surname": "\u9a6c"
+      }
+    }
+  ],
+  "copyright": {
+    "statement": "\u00a9The Author(s) 2025. This is an open access article under the CC-BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)",
+    "status": true
+  },
+  "keywords": [
+    {
+      "keyString": "\u79bb\u5fc3\u529b",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "\u91cd\u529b",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "\u51b7\u51dd",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "\u6c34\u5e73\u7ba1",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "Centrifugal force",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "Gravity",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "Condensation",
+      "keySystem": "misc"
+    },
+    {
+      "keyString": "Horizontal tube",
+      "keySystem": "misc"
+    }
+  ],
+  "openAccess": {
+    "license": "ZHANG Leigang, RU Meng, LI Hao, YUE Liwen, CHEN Zhenqian, MA Yanyang. Steam Condensing Characteristics in a Horizontal Circular Tube under Rotating Action (in Chinese). Chinese Journal of Space Science, 2025, 45(1): 149-161"
+  },
+  "persistentIDs": [
+    {
+      "DOI": "10.11728/cjss2025.01.2024-0004"
+    }
+  ],
+  "pubDate": {
+    "printDate": "2025-01-15"
+  },
+  "publication": {
+    "ISSN": [
+      {
+        "issnString": "0254-6124",
+        "pubtype": "ppub"
+      }
+    ],
+    "issueNum": "1",
+    "pubName": "\u7a7a\u95f4\u79d1\u5b66\u5b66\u62a5",
+    "pubYear": "2025",
+    "publisher": "\u7a7a\u95f4\u79d1\u5b66\u5b66\u62a5\u7f16\u8f91\u90e8",
+    "volumeNum": "45"
+  },
+  "recordData": {
+    "UUID": "0000-1111-2222-3333",
+    "createdTime": "2025-03-20T12:00:00.000000Z",
+    "dataType": "fulltext",
+    "loadFormat": "JATS",
+    "loadLocation": "/Users/mtemple/Projects/Github_repos/JATSFullTextParser/chinese/12_kjkxxb-45-1-149.xml",
+    "loadType": "fromFile",
+    "masterRecord": "SciX:123abcPDQ",
+    "parsedTime": "2025-03-20T12:00:00.000000Z",
+    "recordOrigin": "Publisher"
+  },
+  "references": [
+    {
+      "doi": "10.1007/s00231-021-03164-0",
+      "id": "b1",
+      "xml": "<ref id=\"b1\">\n<label>1</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">WANG L L, JIAO P F, DANG C B, et al</person-group>\n<article-title>Condensation heat transfer characteristics of R1234yf and other Refrigerants inside small-scale tube: an experimental study and heat transfer correlation development</article-title>\n<source>Heat and Mass Transfer</source>\n<year>2022</year>\n<volume>58</volume>\n<issue>6</issue>\n<fpage>1059</fpage>\n<lpage>1074</lpage>\n<pub-id pub-id-type=\"doi\">10.1007/s00231-021-03164-0</pub-id>\n<annotation><p>WANG L L, JIAO P F, DANG C B, <italic>et al</italic>. Condensation heat transfer characteristics of R1234yf and other Refrigerants inside small-scale tube: an experimental study and heat transfer correlation development[J]. <italic>Heat and Mass Transfer</italic>, 2022, <bold>58</bold>(6): 1059-1074</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.expthermflusci.2023.110875",
+      "id": "b2",
+      "xml": "<ref id=\"b2\">\n<label>2</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">\u0141UKASZUK M, SKIEPKO T</person-group>\n<article-title>Condensation heat transfer coefficient during steam intermittent flows in a horizontal minichannel</article-title>\n<source>Experimental Thermal and Fluid Science</source>\n<year>2023</year>\n<volume>145</volume>\n<fpage>110875</fpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.expthermflusci.2023.110875</pub-id>\n<annotation><p>\u0141UKASZUK M, SKIEPKO T. Condensation heat transfer coefficient during steam intermittent flows in a horizontal minichannel[J]. <italic>Experimental Thermal and Fluid Science</italic>, 2023, <bold>145</bold>: 110875</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1038/s41526-023-00276-1",
+      "id": "b3",
+      "xml": "<ref id=\"b3\">\n<label>3</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">BERTO A, AZZOLIN M, BORTOLIN S, et al</person-group>\n<article-title>Condensation heat transfer in microgravity conditions</article-title>\n<source>npj Microgravity</source>\n<year>2023</year>\n<volume>9</volume>\n<issue>1</issue>\n<fpage>32</fpage>\n<pub-id pub-id-type=\"doi\">10.1038/s41526-023-00276-1</pub-id>\n<annotation><p>BERTO A, AZZOLIN M, BORTOLIN S, <italic>et al</italic>. Condensation heat transfer in microgravity conditions[J]. <italic>npj Microgravity</italic>, 2023, <bold>9</bold>(1): 32</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.3969/j.issn.0253-9608.2007.06.004",
+      "id": "b4",
+      "xml": "<ref id=\"b4\">\n<label>4</label>\n<element-citation publication-type=\"journal\">\n<person-group person-group-type=\"author\">\u5eb7\u7426, \u4faf\u745e</person-group>\n<article-title>\u5fae\u91cd\u529b\u6d41\u4f53\u7ba1\u7406\u5728\u822a\u5929\u5de5\u7a0b\u4e2d\u7684\u5e94\u7528</article-title>\n<source>\u81ea\u7136\u6742\u5fd7</source>\n<year>2007</year>\n<volume>29</volume>\n<issue>6</issue>\n<fpage>328</fpage>\n<lpage>334</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.0253-9608.2007.06.004</pub-id>\n<annotation><p>\u5eb7\u7426, \u4faf\u745e. \u5fae\u91cd\u529b\u6d41\u4f53\u7ba1\u7406\u5728\u822a\u5929\u5de5\u7a0b\u4e2d\u7684\u5e94\u7528[J]. \u81ea\u7136\u6742\u5fd7, 2007, <bold>29</bold>(6): 328-334</p></annotation>\n</element-citation>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">KANG Qi, HOU Rui</person-group>\n<article-title>The applications of microgravity fluid management in the aerospace engineering</article-title>\n<source>Chinese Journal of Nature</source>\n<year>2007</year>\n<volume>29</volume>\n<issue>6</issue>\n<fpage>328</fpage>\n<lpage>334</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.0253-9608.2007.06.004</pub-id>\n<annotation><p>KANG Qi, HOU Rui. The applications of microgravity fluid management in the aerospace engineering[J]. <italic>Chinese Journal of Nature</italic>, 2007, <bold>29</bold>(6): 328-334</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.3969/j.issn.0254-6124.2000.04.009",
+      "id": "b5",
+      "xml": "<ref id=\"b5\">\n<label>5</label>\n<element-citation publication-type=\"journal\">\n<person-group person-group-type=\"author\">\u8d75\u5efa\u798f, \u6797\u6d77, \u89e3\u4eac\u660c, \u7b49</person-group>\n<article-title>\u5931\u91cd\u98de\u673a\u642d\u8f7d\u6c14/\u6db2\u4e24\u76f8\u6d41\u5b9e\u9a8c\u7814\u7a76</article-title>\n<source>\u7a7a\u95f4\u79d1\u5b66\u5b66\u62a5</source>\n<year>2000</year>\n<volume>20</volume>\n<issue>4</issue>\n<fpage>340</fpage>\n<lpage>347</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.0254-6124.2000.04.009</pub-id>\n<annotation><p>\u8d75\u5efa\u798f, \u6797\u6d77, \u89e3\u4eac\u660c, \u7b49. \u5931\u91cd\u98de\u673a\u642d\u8f7d\u6c14/\u6db2\u4e24\u76f8\u6d41\u5b9e\u9a8c\u7814\u7a76[J]. \u7a7a\u95f4\u79d1\u5b66\u5b66\u62a5, 2000, <bold>20</bold>(4): 340-347</p></annotation>\n</element-citation>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">ZHAO Jianfu, LIN Hai, XIE Jingchang, et al</person-group>\n<article-title>Experimental investigation of gas-liquid two-phase flow utilizing reduced gravity airplane</article-title>\n<source>Chinese Journal of Space Science</source>\n<year>2000</year>\n<volume>20</volume>\n<issue>4</issue>\n<fpage>340</fpage>\n<lpage>347</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.0254-6124.2000.04.009</pub-id>\n<annotation><p>ZHAO Jianfu, LIN Hai, XIE Jingchang, <italic>et al</italic>. Experimental investigation of gas-liquid two-phase flow utilizing reduced gravity airplane[J]. <italic>Chinese Journal of Space Science</italic>, 2000, <bold>20</bold>(4): 340-347</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.3969/j.issn.1005-0930.2001.04.012",
+      "id": "b6",
+      "xml": "<ref id=\"b6\">\n<label>6</label>\n<element-citation publication-type=\"journal\">\n<person-group person-group-type=\"author\">\u8d75\u5efa\u798f, \u6797\u6d77, \u89e3\u4eac\u660c, \u7b49</person-group>\n<article-title>\u5fae\u91cd\u529b\u6761\u4ef6\u4e0b\u6c14/\u6db2\u4e24\u76f8\u6d41\u538b\u964d\u5b9e\u9a8c\u7814\u7a76</article-title>\n<source>\u5e94\u7528\u57fa\u7840\u4e0e\u5de5\u7a0b\u79d1\u5b66\u5b66\u62a5</source>\n<year>2001</year>\n<volume>9</volume>\n<issue>4</issue>\n<fpage>373</fpage>\n<lpage>380</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.1005-0930.2001.04.012</pub-id>\n<annotation><p>\u8d75\u5efa\u798f, \u6797\u6d77, \u89e3\u4eac\u660c, \u7b49. \u5fae\u91cd\u529b\u6761\u4ef6\u4e0b\u6c14/\u6db2\u4e24\u76f8\u6d41\u538b\u964d\u5b9e\u9a8c\u7814\u7a76[J]. \u5e94\u7528\u57fa\u7840\u4e0e\u5de5\u7a0b\u79d1\u5b66\u5b66\u62a5, 2001, <bold>9</bold>(4): 373-380</p></annotation>\n</element-citation>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">ZHAO Jianfu, LIN Hai, XIE Jingchang, et al</person-group>\n<article-title>Experimental study on pressure drop of two-phase gas-liquid flow at microgravity conditions</article-title>\n<source>Journal of Basic Science and Engineering</source>\n<year>2001</year>\n<volume>9</volume>\n<issue>4</issue>\n<fpage>373</fpage>\n<lpage>380</lpage>\n<pub-id pub-id-type=\"doi\">10.3969/j.issn.1005-0930.2001.04.012</pub-id>\n<annotation><p>ZHAO Jianfu, LIN Hai, XIE Jingchang, <italic>et al</italic>. Experimental study on pressure drop of two-phase gas-liquid flow at microgravity conditions[J]. <italic>Journal of Basic Science and Engineering</italic>, 2001, <bold>9</bold>(4): 373-380</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.asr.2011.09.038",
+      "id": "b7",
+      "xml": "<ref id=\"b7\">\n<label>7</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">FANG X D, ZHANG H G, XU Y, et al</person-group>\n<article-title>Evaluation of using two-phase frictional pressure drop correlations for normal gravity to microgravity and reduced gravity</article-title>\n<source>Advances in Space Research</source>\n<year>2012</year>\n<volume>49</volume>\n<issue>2</issue>\n<fpage>351</fpage>\n<lpage>364</lpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.asr.2011.09.038</pub-id>\n<annotation><p>FANG X D, ZHANG H G, XU Y, <italic>et al</italic>. Evaluation of using two-phase frictional pressure drop correlations for normal gravity to microgravity and reduced gravity[J]. <italic>Advances in Space Research</italic>, 2012, <bold>49</bold>(2): 351-364</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.ijheatmasstransfer.2022.123686",
+      "id": "b8",
+      "xml": "<ref id=\"b8\">\n<label>8</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">BAI W D, CHEN W, LI M F, et al</person-group>\n<article-title>An improved mass transfer model for film condensation numerical simulation</article-title>\n<source>International Journal of Heat and Mass Transfer</source>\n<year>2023</year>\n<volume>202</volume>\n<fpage>123686</fpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.ijheatmasstransfer.2022.123686</pub-id>\n<annotation><p>BAI W D, CHEN W, LI M F, <italic>et al</italic>. An improved mass transfer model for film condensation numerical simulation[J]. <italic>International Journal of Heat and Mass Transfer</italic>, 2023, <bold>202</bold>: 123686</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.applthermaleng.2023.121162",
+      "id": "b9",
+      "xml": "<ref id=\"b9\">\n<label>9</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">HE F L, DU W F, MIAO J Y, et al</person-group>\n<article-title>Numerical investigation of the gravity effect on two-phase flow and heat transfer of neon condensation inside horizontal tubes</article-title>\n<source>Applied Thermal Engineering</source>\n<year>2023</year>\n<volume>233</volume>\n<fpage>121162</fpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.applthermaleng.2023.121162</pub-id>\n<annotation><p>HE F L, DU W F, MIAO J Y, <italic>et al</italic>. Numerical investigation of the gravity effect on two-phase flow and heat transfer of neon condensation inside horizontal tubes[J]. <italic>Applied Thermal Engineering</italic>, 2023, <bold>233</bold>: 121162</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.3389/fenrg.2021.792586",
+      "id": "b10",
+      "xml": "<ref id=\"b10\">\n<label>10</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">LIU N, ZHAO Q, LAN Z X</person-group>\n<article-title>Flow regimes and transitions for two-phase flow of R152a during condensation in a circular minichannel</article-title>\n<source>Frontiers in Energy Research</source>\n<year>2021</year>\n<volume>9</volume>\n<fpage>792586</fpage>\n<pub-id pub-id-type=\"doi\">10.3389/fenrg.2021.792586</pub-id>\n<annotation><p>LIU N, ZHAO Q, LAN Z X. Flow regimes and transitions for two-phase flow of R152a during condensation in a circular minichannel[J]. <italic>Frontiers in Energy Research</italic>, 2021, <bold>9</bold>: 792586</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "id": "b11",
+      "xml": "<ref id=\"b11\">\n<label>11</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">NEBULONI S, THOME J R</person-group>\n<article-title>Film condensation under normal and microgravity: effect of channel shape</article-title>\n<source>Microgravity Science and Technology</source>\n<year>2007</year>\n<volume>19</volume>\n<issue>3/4</issue>\n<fpage>125</fpage>\n<lpage>127</lpage>\n<annotation><p>NEBULONI S, THOME J R. Film condensation under normal and microgravity: effect of channel shape[J]. <italic>Microgravity Science and Technology</italic>, 2007, <bold>19</bold>(3/4): 125-127</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/S0140-7007(02)00013-0",
+      "id": "b12",
+      "xml": "<ref id=\"b12\">\n<label>12</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">COLEMAN J W, GARIMELLA S</person-group>\n<article-title>Two-phase flow regimes in round, square and rectangular tubes during condensation of refrigerant R134a</article-title>\n<source>International Journal of Refrigeration</source>\n<year>2003</year>\n<volume>26</volume>\n<issue>1</issue>\n<fpage>117</fpage>\n<lpage>128</lpage>\n<pub-id pub-id-type=\"doi\">10.1016/S0140-7007(02)00013-0</pub-id>\n<annotation><p>COLEMAN J W, GARIMELLA S. Two-phase flow regimes in round, square and rectangular tubes during condensation of refrigerant R134a[J]. <italic>International Journal of Refrigeration</italic>, 2003, <bold>26</bold>(1): 117-128</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.icheatmasstransfer.2021.105171",
+      "id": "b13",
+      "xml": "<ref id=\"b13\">\n<label>13</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">BAI C, QIU Y, WEI M, et al</person-group>\n<article-title>Converging-shaped small channel for condensation heat transfer enhancement under varying-gravity conditions</article-title>\n<source>International Communications in Heat and Mass Transfer</source>\n<year>2021</year>\n<volume>123</volume>\n<fpage>105171</fpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.icheatmasstransfer.2021.105171</pub-id>\n<annotation><p>BAI C, QIU Y, WEI M, <italic>et al</italic>. Converging-shaped small channel for condensation heat transfer enhancement under varying-gravity conditions[J]. <italic>International Communications in Heat and Mass Transfer</italic>, 2021, <bold>123</bold>: 105171</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1007/s12217-011-9292-3",
+      "id": "b14",
+      "xml": "<ref id=\"b14\">\n<label>14</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">LIPS S, MEYER J P</person-group>\n<article-title>Effect of gravity forces on heat transfer and pressure drop during condensation of R134a</article-title>\n<source>Microgravity Science and Technology</source>\n<year>2012</year>\n<volume>24</volume>\n<issue>3</issue>\n<fpage>157</fpage>\n<lpage>164</lpage>\n<pub-id pub-id-type=\"doi\">10.1007/s12217-011-9292-3</pub-id>\n<annotation><p>LIPS S, MEYER J P. Effect of gravity forces on heat transfer and pressure drop during condensation of R134a[J]. <italic>Microgravity Science and Technology</italic>, 2012, <bold>24</bold>(3): 157-164</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/S0017-9310(98)00041-6",
+      "id": "b15",
+      "xml": "<ref id=\"b15\">\n<label>15</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">WANG W C, MA X H, WEI Z D, et al</person-group>\n<article-title>Two-phase flow patterns and transition characteristics for in-tube condensation with different surface inclinations</article-title>\n<source>International Journal of Heat and Mass Transfer</source>\n<year>1998</year>\n<volume>41</volume>\n<issue>24</issue>\n<fpage>4341</fpage>\n<lpage>4349</lpage>\n<pub-id pub-id-type=\"doi\">10.1016/S0017-9310(98)00041-6</pub-id>\n<annotation><p>WANG W C, MA X H, WEI Z D, <italic>et al</italic>. Two-phase flow patterns and transition characteristics for in-tube condensation with different surface inclinations[J]. <italic>International Journal of Heat and Mass Transfer</italic>, 1998, <bold>41</bold>(24): 4341-4349</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.icheatmasstransfer.2018.05.013",
+      "id": "b16",
+      "xml": "<ref id=\"b16\">\n<label>16</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">AZZOLIN M, BORTOLIN S, LE NGUYEN L P, et al</person-group>\n<article-title>Experimental investigation of in-tube condensation in microgravity</article-title>\n<source>International Communications in Heat and Mass Transfer</source>\n<year>2018</year>\n<volume>96</volume>\n<fpage>69</fpage>\n<lpage>79</lpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.icheatmasstransfer.2018.05.013</pub-id>\n<annotation><p>AZZOLIN M, BORTOLIN S, LE NGUYEN L P, <italic>et al</italic>. Experimental investigation of in-tube condensation in microgravity[J]. <italic>International Communications in Heat and Mass Transfer</italic>, 2018, <bold>96</bold>: 69-79</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1115/1.4008150",
+      "id": "b17",
+      "xml": "<ref id=\"b17\">\n<label>17</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">SPARROW E M, GREGG J L</person-group>\n<article-title>A theory of rotating condensation</article-title>\n<source>Journal of Heat Transfer</source>\n<year>1959</year>\n<volume>81</volume>\n<issue>2</issue>\n<fpage>113</fpage>\n<lpage>119</lpage>\n<pub-id pub-id-type=\"doi\">10.1115/1.4008150</pub-id>\n<annotation><p>SPARROW E M, GREGG J L. A theory of rotating condensation[J]. <italic>Journal of Heat Transfer</italic>, 1959, <bold>81</bold>(2): 113-119</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1115/1.3679881",
+      "id": "b18",
+      "xml": "<ref id=\"b18\">\n<label>18</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">SPARROW E M, GREGG J L</person-group>\n<article-title>The effect of vapor drag on rotating condensation</article-title>\n<source>Journal of Heat Transfer</source>\n<year>1960</year>\n<volume>82</volume>\n<issue>1</issue>\n<fpage>71</fpage>\n<lpage>72</lpage>\n<pub-id pub-id-type=\"doi\">10.1115/1.3679881</pub-id>\n<annotation><p>SPARROW E M, GREGG J L. The effect of vapor drag on rotating condensation[J]. <italic>Journal of Heat Transfer</italic>, 1960, <bold>82</bold>(1): 71-72</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1115/1.3680454",
+      "id": "b19",
+      "xml": "<ref id=\"b19\">\n<label>19</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">SPARROW E M, HARTNETT J P</person-group>\n<article-title>Condensation on a rotating cone</article-title>\n<source>Journal of Heat Transfer</source>\n<year>1961</year>\n<volume>83</volume>\n<issue>1</issue>\n<fpage>101</fpage>\n<lpage>102</lpage>\n<pub-id pub-id-type=\"doi\">10.1115/1.3680454</pub-id>\n<annotation><p>SPARROW E M, HARTNETT J P. Condensation on a rotating cone[J]. <italic>Journal of Heat Transfer</italic>, 1961, <bold>83</bold>(1): 101-102</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.ijheatmasstransfer.2022.123467",
+      "id": "b20",
+      "xml": "<ref id=\"b20\">\n<label>20</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">BERTO A, AZZOLIN M, LAVIEILLE P, et al</person-group>\n<article-title>Experimental investigation of liquid film thickness and heat transfer during condensation in microgravity</article-title>\n<source>International Journal of Heat and Mass Transfer</source>\n<year>2022</year>\n<volume>199</volume>\n<fpage>123467</fpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.ijheatmasstransfer.2022.123467</pub-id>\n<annotation><p>BERTO A, AZZOLIN M, LAVIEILLE P, <italic>et al</italic>. Experimental investigation of liquid film thickness and heat transfer during condensation in microgravity[J]. <italic>International Journal of Heat and Mass Transfer</italic>, 2022, <bold>199</bold>: 123467</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1016/j.ijheatmasstransfer.2013.02.010",
+      "id": "b21",
+      "xml": "<ref id=\"b21\">\n<label>21</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">LEE H, MUDAWAR I, HASAN M M</person-group>\n<article-title>Experimental and theoretical investigation of annular flow condensation in microgravity</article-title>\n<source>International Journal of Heat and Mass Transfer</source>\n<year>2013</year>\n<volume>61</volume>\n<fpage>293</fpage>\n<lpage>309</lpage>\n<pub-id pub-id-type=\"doi\">10.1016/j.ijheatmasstransfer.2013.02.010</pub-id>\n<annotation><p>LEE H, MUDAWAR I, HASAN M M. Experimental and theoretical investigation of annular flow condensation in microgravity[J]. <italic>International Journal of Heat and Mass Transfer</italic>, 2013, <bold>61</bold>: 293-309</p></annotation>\n</element-citation>\n</ref>"
+    },
+    {
+      "doi": "10.1007/s12217-021-09884-6",
+      "id": "b22",
+      "xml": "<ref id=\"b22\">\n<label>22</label>\n<element-citation publication-type=\"journal\" xml:lang=\"en\">\n<person-group person-group-type=\"author\">DEY P, RAJ D, SAHA S K</person-group>\n<article-title>A numerical study on condensation heat transfer characteristics of R134a in microchannel under varying gravity conditions</article-title>\n<source>Microgravity Science and Technology</source>\n<year>2021</year>\n<volume>33</volume>\n<issue>3</issue>\n<fpage>34</fpage>\n<pub-id pub-id-type=\"doi\">10.1007/s12217-021-09884-6</pub-id>\n<annotation><p>DEY P, RAJ D, SAHA S K. A numerical study on condensation heat transfer characteristics of R134a in microchannel under varying gravity conditions[J]. <italic>Microgravity Science and Technology</italic>, 2021, <bold>33</bold>(3): 34</p></annotation>\n</element-citation>\n</ref>"
+    }
+  ],
+  "title": {
+    "textEnglish": "\u65cb\u8f6c\u4f5c\u7528\u4e0b\u6c34\u5e73\u5706\u7ba1\u5185\u84b8\u6c7d\u51b7\u51dd\u7279\u6027"
+  }
+}

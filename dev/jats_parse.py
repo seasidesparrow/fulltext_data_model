@@ -6,7 +6,7 @@ Note: requires ADSIngestParser
 import json
 import re
 from bs4 import BeautifulSoup
-from adsingestp.parsers.jats import JATSParser
+from ingestparser.parsers.jats import JATSParser
 
 regex_multiple_sp = re.compile(r" +")
 def clean_spaces(text):
@@ -30,6 +30,7 @@ def build_recdata(infile):
         "recordOrigin": "Publisher"
     }
     return recdata
+
 def get_reflist(soup):
     try:
         allref = soup.find("ref-list")
@@ -145,6 +146,9 @@ def get_bibrefs(soup):
     except Exception as err:
         print("Bibrefs died: %s" % err)
 
+def get_language(soup):
+    try:
+
 def get_sections(soup, sectype="sec"):
     try:
         sections = soup.find_all(sectype)
@@ -165,6 +169,7 @@ def get_sections(soup, sectype="sec"):
             tables = get_tables(s)
             footnotes = get_footnotes(s)
             bibrefs = get_bibrefs(s)
+            language = get_language(s)
 
             sec = dict()
             if sec_id:
@@ -185,6 +190,8 @@ def get_sections(soup, sectype="sec"):
                 sec["bibrefs"] = bibrefs
             if footnotes:
                 sec["footnotes"] = footnotes
+            if language:
+                sec["language"] = language
         
             cleantext = clean_spaces(s.text)
             if cleantext:
@@ -252,7 +259,8 @@ def get_fngroup(soup):
 
 def main():
     #infile = "files/aa53501-24.xml"
-    infile = "files/apj_976_1_106.xml"
+    #infile = "files/apj_976_1_106.xml"
+    infile = "/Users/mtemple/Projects/Github_repos/JATSFullTextParser/chinese/12_kjkxxb-45-1-149.xml"
     with open(infile, "r") as fx:
         rawData = fx.read()
 
@@ -305,6 +313,12 @@ def main():
     # now start parsing it as fulltext...
     soup = BeautifulSoup(rawData, "lxml-xml")
 
+    # language declaration in article tag (if any)
+    articletag = soup.find("article")
+    if articletag.get("xml:lang", None):
+        doc_lang = articletag.get("xml:lang")
+        print("YAYAYA DOC LANG: %s" % doc_lang)
+
     # abstract from front matter
     front = soup.find("front")
     abstract = get_sections(front, sectype="abstract")     
@@ -346,7 +360,9 @@ def main():
     output["recordData"] = build_recdata(infile)
 
     if output:
-        with open(infile+".json", "w") as fj:
+        lolol = infile.split("/")[-1]
+        # with open(infile+".json", "w") as fj:
+        with open(lolol+".json", "w") as fj:
             fj.write("%s\n" % json.dumps(output, indent=2, sort_keys=True))
     else:
         print("I got nothing. :(")
