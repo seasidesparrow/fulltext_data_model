@@ -24,7 +24,7 @@ with open('README.md', 'r') as fd:
     long_description = fd.read()
 
 setup(
-    name='adsfulltextschema',
+    name='json_schema',
     version=get_git_version(default="v0.0.1"),
     url='http://github.com/adsabs/fulltext_data_model/',
     license='MIT',
@@ -33,7 +33,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    package_data={'adsfulltextschema': ['*.json']},
+    package_data={'json_schema': ['*.json']},
     zip_safe=False,
     include_package_data=True,
     platforms='any',

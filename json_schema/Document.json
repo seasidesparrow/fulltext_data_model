@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/adsabs/fulltext_data_model/refs/heads/prototype/adsfulltextschema/Document.json",
+  "title": "Document",
+  "description": "Data schema for importing fulltext data into Honeycomb",
+  "type": "object",
+  "properties": {
+    "abstract": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Abstract.json objects.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Abstract.json"
+      }
+    },
+    "acknowledgements": {
+      "$ref": "./Acknowledgements.json"
+    },
+    "appendices": {
+      "type": "array",
+      "description": "Array of Section.json objects.",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "authors": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Contrib.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Contrib.json"
+      }
+    },
+    "body": {
+      "type": "array",
+      "description": "Array of Section.json objects",
+      "items": {
+        "$ref": "./Section.json"
+      }
+    },
+    "copyright": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "statement": {
+          "type": "string"
+        }
+      }
+    },
+    "dataavailability": {
+      "$ref": "./DataAvailability.json"
+    },
+    "footnote-table": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Footnote.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Footnote.json"
+      }
+    },
+    "funding": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Funder.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Funder.json"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Keyword.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Keyword.json"
+      }
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO-639-1 country code of document language declaration"
+    },
+    "openAccess": {
+      "description": "ingest_data_model/json_schema/OpenAccess.json object",
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/OpenAccess.json"
+    },
+    "otherContributor": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Contrib.json / role pairs",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/OtherContrib.json"
+      }
+    },
+    "persistentIDs": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/PersistentID.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/PersistentID.json"
+      }
+    },
+    "pubDate": {
+      "description": "ingest_data_model/json_schema/PubDates.json object",
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/PubDates.json"
+    },
+    "publication": {
+      "description": "ingest_data_model/json_schema/Publication.json object",
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Publication.json"
+    },
+    "recordData": {
+      "description": "ingest_data_model/json_schema/RecordData.json object",
+      "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/RecordData.json"
+    },
+    "references": {
+      "type": "array",
+      "description": "Array of Reference.json objects",
+      "items": {
+        "$ref": "./Reference.json"
+      }
+    },
+    "subtitle": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Title.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Title.json"
+      }
+    },
+    "supplementaryMaterial": {
+      "type": "array",
+      "description": "Array of text objects",
+      "items": {
+        "type": "string"
+      }
+    },
+    "title": {
+      "type": "array",
+      "description": "Array of ingest_data_model/json_schema/Title.json objects",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/adsabs/ingest_data_model/refs/tags/v1.1.1/json_schema/Title.json"
+      }
+    }
+  },
+  "required": [
+    "recordData",
+    "body",
+    "title",
+    "pubDate",
+    "publication"
+  ],
+  "additionalProperties": false
+}

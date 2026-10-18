@@ -46,6 +46,7 @@ def main():
 
     test_dir = os.path.abspath('./test_data')
     test_files = glob(test_dir+'/*.json')
+    # test_files = [test_dir+"/aa53501-24.xml.json"]
     try:
         validator = ValidationTool()
     except Exception as err:
